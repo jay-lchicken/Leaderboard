@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leaderboard</title>
+    <style>
+      table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      th, td {
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        text-align: center;
+      }
+
+      th {
+        background-color: #4CAF50;
+        color: white;
+        font-weight: bold;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      tr:hover {
+        background-color: #e0e0e0;
+      }
+    </style>
+</head>
+<body>
+<table id="leaderboard">
+  <tr>
+    <th>Username</th>
+    <th>Score</th>
+  </tr>
+
+</table>
+<script src="index.js" type="module"></script>
+</body>
+</html>
